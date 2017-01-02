@@ -1,0 +1,12 @@
+{
+  "name": "TryMe",
+  "description": "A FMI Distributed Systems Project Application Component",
+  "keywords": [
+    "FMI",
+    "distributed systems",
+    "java",
+    "rest"
+  ],
+  "repository": "https://github.com/pchmi-t/tryme-v2",
+  "image": "heroku/java"
+ }
