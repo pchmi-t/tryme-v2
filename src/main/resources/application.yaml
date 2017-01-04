@@ -10,3 +10,14 @@ security:
       clientAuthenticationScheme: form
     resource:
       userInfoUri: https://graph.facebook.com/me
+spring:
+  datasource:
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+    driverClassName: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    generate-dd: true
+    hibernate:
+      ddl-auto: create

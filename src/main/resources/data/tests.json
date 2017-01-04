@@ -1,0 +1,125 @@
+[
+	{
+		"description": {
+			"id": "test_01424244",
+			"title": "Basic World History Test",
+			"subject": "World History",
+			"description": "Practice exam about 11th grade World History",
+			"category": {
+				"id": "cat_014",
+				"name": "History",
+				"testsCount": 123
+			}
+		},
+		"questions": {
+			"quation_01": {
+				"id": "quation_01",
+				"text": "World War I began in which year?",
+				"points": 10,
+				"answers": {
+					"answer_01": {
+						"id": "answer_01",
+						"text": "1923",
+						"correct": false
+					},
+					"answer_02": {
+						"id": "answer_02",
+						"text": "1914",
+						"correct": true
+					},
+					"answer_03": {
+						"id": "answer_03",
+						"text": "1917",
+						"correct": false
+					},
+					"answer_04": {
+						"id": "answer_04",
+						"text": "1938",
+						"correct": false
+					}
+				}
+			},
+			"quation_02": {
+				"id": "quation_02",
+				"text": "Adolf Hitler was born in which country?",
+				"points": 5,
+				"answers": {
+					"answer_01": {
+						"id": "answer_01",
+						"text": "France",
+						"correct": false
+					},
+					"answer_02": {
+						"id": "answer_02",
+						"text": "Austria",
+						"correct": true
+					},
+					"answer_03": {
+						"id": "answer_03",
+						"text": "Germany",
+						"correct": false
+					},
+					"answer_04": {
+						"id": "answer_04",
+						"text": "Hungary",
+						"correct": false
+					}
+				}
+			},
+			"quation_03": {
+				"id": "quation_03",
+				"text": "The Battle of Hastings in 1066 was fought in which country?",
+				"points": 15,
+				"answers": {
+					"answer_01": {
+						"id": "answer_01",
+						"text": "England",
+						"correct": true
+					},
+					"answer_02": {
+						"id": "answer_02",
+						"text": "France",
+						"correct": false
+					},
+					"answer_03": {
+						"id": "answer_03",
+						"text": "Norway",
+						"correct": false
+					},
+					"answer_04": {
+						"id": "answer_04",
+						"text": "Russia",
+						"correct": false
+					}
+				}
+			},
+			"quation_04": {
+				"id": "quation_04",
+				"text": "The first successful printing press was developed by this man.",
+				"points": 15,
+				"answers": {
+					"answer_01": {
+						"id": "answer_01",
+						"text": "Benjamin Franklin",
+						"correct": false
+					},
+					"answer_02": {
+						"id": "answer_02",
+						"text": "Johannes Gutenburg",
+						"correct": true
+					},
+					"answer_03": {
+						"id": "answer_03",
+						"text": "Sir Isaac Newton",
+						"correct": false
+					},
+					"answer_04": {
+						"id": "answer_04",
+						"text": "Martin Luther",
+						"correct": false
+					}
+				}
+			}
+		}
+	}
+]
