@@ -25,3 +25,5 @@ spring:
     generate-dd: true
     hibernate:
       ddl-auto: update
+rpc:
+ url: ${ADMIN_SERVER_PRC_HOST}

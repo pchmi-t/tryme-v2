@@ -65,4 +65,15 @@ public class TestDescription {
 		return true;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("TestDescription [id=").append(id).append(", title=").append(title).append(", description=")
+				.append(description).append(", subject=").append(subject).append(", category=").append(category)
+				.append("]");
+		return builder.toString();
+	}
+	
+	
+
 }

@@ -15,7 +15,7 @@ public class UserController {
 		this.userServiceFactory = userServiceFactory;
 	}
 
-	@RequestMapping(value = "/api/user", method = RequestMethod.GET)
+	@RequestMapping(value = "/api/v1/user", method = RequestMethod.GET)
 	public AuthenticatedUser getUser() {
 		UserService userService = userServiceFactory.create();
 		return userService.getUser();

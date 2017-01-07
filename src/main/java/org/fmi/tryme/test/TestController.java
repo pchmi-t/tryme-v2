@@ -31,7 +31,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.google.common.collect.Sets;
 
 @RestController
-@RequestMapping("/api/tests")
+@RequestMapping("/api/v1/tests")
 public class TestController {
 
 	private static final String CATEGORY_ID_PARAM = "category";

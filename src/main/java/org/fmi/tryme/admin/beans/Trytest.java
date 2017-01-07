@@ -19,7 +19,7 @@ public class Trytest {
 	public Map<String, Question> getQuestions() {
 		return questions;
 	}
-	
+
 	public Question getQuestion(String questionId) {
 		return questions.get(questionId);
 	}
@@ -47,6 +47,14 @@ public class Trytest {
 		} else if (!description.equals(other.description))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Trytest [description=").append(description).append(", questions=").append(questions)
+				.append("]");
+		return builder.toString();
 	}
 
 }
